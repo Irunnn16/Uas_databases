@@ -13,3 +13,8 @@ create table post(
     tulisan varchar(13) not null,
     user_id int
 );
+uas_database
+
+insert into user (nama, telepon) values ("kevin", "3232323232");
+
+insert into post (judul, tulisan, user_id) values ("Dejavu", "Gak sengaja", 2);
